@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  align-self: stretch;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.header-text {
+  color: #475569;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .header-text {
+    font-size: 36px;
+  }
+}
